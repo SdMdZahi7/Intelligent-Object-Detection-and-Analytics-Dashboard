@@ -127,12 +127,6 @@ Frame counts as NumPy array:
  [ 99  13]
  [100  15]]
 <class 'pandas.core.frame.DataFrame'>
-C:\Users\SYED MUHAMMED ZAHI\dashboard_app.py:58: FutureWarning:
-
-Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
-
-  sns.barplot(x=object_counts['Object'], y=object_counts['Count'], ax=ax1, palette="coolwarm")
-C:\Users\SYED MUHAMMED ZAHI\dashboard_app.py:138: FutureWarning:
 
 Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
 
