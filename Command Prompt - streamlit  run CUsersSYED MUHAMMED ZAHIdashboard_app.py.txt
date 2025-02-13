@@ -1,0 +1,139 @@
+Microsoft Windows [Version 10.0.22631.4890]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\SYED MUHAMMED ZAHI>streamlit run "C:\Users\SYED MUHAMMED ZAHI\dashboard_app.py"
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.1.14:8501
+
+Frame counts saved to 'visualized_frame_counts.csv'
+Frame counts DataFrame:
+    Frame  Count
+0       1     13
+1       2     12
+2       3     13
+3       4     13
+4       5     13
+..    ...    ...
+95     96     14
+96     97     13
+97     98     15
+98     99     13
+99    100     15
+
+[100 rows x 2 columns]
+
+Frame counts as NumPy array:
+[[  1  13]
+ [  2  12]
+ [  3  13]
+ [  4  13]
+ [  5  13]
+ [  6  16]
+ [  7  15]
+ [  8  15]
+ [  9  16]
+ [ 10  19]
+ [ 11  18]
+ [ 12  17]
+ [ 13  16]
+ [ 14  14]
+ [ 15  12]
+ [ 16  12]
+ [ 17  12]
+ [ 18  12]
+ [ 19  12]
+ [ 20  14]
+ [ 21  13]
+ [ 22  12]
+ [ 23  12]
+ [ 24  13]
+ [ 25  11]
+ [ 26  12]
+ [ 27  12]
+ [ 28  12]
+ [ 29  11]
+ [ 30  11]
+ [ 31  12]
+ [ 32  11]
+ [ 33  12]
+ [ 34  12]
+ [ 35  13]
+ [ 36  14]
+ [ 37  15]
+ [ 38  15]
+ [ 39  14]
+ [ 40  13]
+ [ 41  11]
+ [ 42   8]
+ [ 43   8]
+ [ 44  11]
+ [ 45  10]
+ [ 46  10]
+ [ 47  10]
+ [ 48  11]
+ [ 49  10]
+ [ 50   9]
+ [ 51  10]
+ [ 52  11]
+ [ 53  12]
+ [ 54  12]
+ [ 55  11]
+ [ 56  11]
+ [ 57  10]
+ [ 58   9]
+ [ 59  11]
+ [ 60  12]
+ [ 61  12]
+ [ 62  11]
+ [ 63  13]
+ [ 64  12]
+ [ 65  13]
+ [ 66  12]
+ [ 67  15]
+ [ 68  15]
+ [ 69  13]
+ [ 70  14]
+ [ 71  15]
+ [ 72  13]
+ [ 73  14]
+ [ 74  14]
+ [ 75  12]
+ [ 76  13]
+ [ 77  13]
+ [ 78  13]
+ [ 79  13]
+ [ 80  12]
+ [ 81  12]
+ [ 82  12]
+ [ 83  11]
+ [ 84  14]
+ [ 85  13]
+ [ 86  13]
+ [ 87  13]
+ [ 88  13]
+ [ 89  11]
+ [ 90  11]
+ [ 91  11]
+ [ 92  10]
+ [ 93  10]
+ [ 94  12]
+ [ 95  13]
+ [ 96  14]
+ [ 97  13]
+ [ 98  15]
+ [ 99  13]
+ [100  15]]
+<class 'pandas.core.frame.DataFrame'>
+C:\Users\SYED MUHAMMED ZAHI\dashboard_app.py:58: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=object_counts['Object'], y=object_counts['Count'], ax=ax1, palette="coolwarm")
+C:\Users\SYED MUHAMMED ZAHI\dashboard_app.py:138: FutureWarning:
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=avg_confidence['Object'], y=avg_confidence['Confidence'], ax=ax3, palette="mako")
